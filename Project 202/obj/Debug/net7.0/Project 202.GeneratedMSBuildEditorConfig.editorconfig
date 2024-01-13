@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project_202
+build_property.RootNamespace = Project_202
+build_property.ProjectDir = F:\Project 202\Project 202\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Project 202\Project 202
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Project 202/Project 202/Pages/Accounts/AdminSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcQWRtaW5TaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Accounts/FanSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcRmFuU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Accounts/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcc2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/Awards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQXdhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Admin/ViewAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVmlld0FsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/AfterSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXEFmdGVyU2VsZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/Match.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXE1hdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/player.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXHBsYXllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/select.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXHNlbGVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXHNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/ShowData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXFNob3dEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/ShowMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXFNob3dNYXRjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Fan/ShowPlayer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFuXFNob3dQbGF5ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Shared/_Layout_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRfQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Shared/_Layout_Fan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRfRmFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project 202/Project 202/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s5gsucwibc

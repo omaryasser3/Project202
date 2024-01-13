@@ -1,0 +1,183 @@
+﻿@page
+@model Project_202.Pages.Admin.InsertModel
+@{
+    ViewData["Title"] = "Insertion page";
+}
+@{
+    Layout = "~/Pages/Shared/_Layout_Admin.cshtml";
+}
+<!DOCTYPE html>
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 350px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        margin: auto;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .maintitle {
+        font-size: 28px;
+        color: #34282c;
+        font-weight: 700;
+        letter-spacing: -1px;
+        position: relative;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .title {
+        font-size: 28px;
+        color: #9DC209;
+        font-weight: 600;
+        letter-spacing: -1px;
+        position: relative;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .flex {
+        display: flex;
+        width: 100%;
+        gap: 6px;
+    }
+
+    .form label {
+        position: relative;
+    }
+
+        .form label .input {
+            width: 100%;
+            padding: 10px 10px 20px 10px;
+            outline: 0;
+            border: 1px solid rgba(105, 105, 105, 0.397);
+            border-radius: 10px;
+        }
+
+            .form label .input + span {
+                position: absolute;
+                left: 10px;
+                top: 15px;
+                color: grey;
+                font-size: 0.9em;
+                cursor: text;
+                transition: 0.3s ease;
+            }
+
+            .form label .input:placeholder-shown + span {
+                top: 15px;
+                font-size: 0.9em;
+            }
+
+            .form label .input:focus + span, .form label .input:valid + span {
+                top: 30px;
+                font-size: 0.7em;
+                font-weight: 600;
+            }
+
+            .form label .input:valid + span {
+                color: green;
+            }
+
+    .submit {
+        border: none;
+        outline: none;
+        background-color: royalblue;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+        .submit:hover {
+            background-color: rgb(56, 90, 194);
+        }
+
+    .inputbutton {
+        background-color: #9DC209;
+        text-align: center;
+        align-self: center;
+        border: 2px;
+        border-radius: 12px;
+        padding: 5px;
+        color: white;
+    }
+
+    .returnbutton {
+        position: relative;
+        background-color: #9DC209;
+        text-align: right;
+        margin: auto;
+        border: 2px;
+        border-radius: 12px;
+        padding: 5px;
+        color: white;
+    }
+</style>
+<html>
+<head>
+    <title>Create Page</title>
+</head>
+<body>
+    <h1 class="maintitle">Insertion Page</h1>
+    <br />
+    <div class="container">
+        <h4 class="title">Insert a new Match</h4>
+        <form method="post" asp-page-handler="Match" class="form">
+            <label class="form-label">Sponsor</label>
+            <input type="text" asp-for="@Model.sponsor" class="input"></input>
+            <label class="form-label">Kick Off</label>
+            <input type="text" asp-for="@Model.KickOff" class="input"></input>
+            <label class="form-label">Gameweek</label>
+            <input type="text" asp-for="@Model.gameweek" class="input"></input>
+            <label class="form-label">Home goals</label>
+            <input type="text" asp-for="@Model.HomeGoals" class="input"></input>
+            <label class="form-label">Away goals</label>
+            <input type="text" asp-for="@Model.AwayGoals" class="input"></input>
+            <label class="form-label">Stadium</label>
+            <input type="text" asp-for="@Model.stadium" class="input"></input>
+            <label class="form-label">Home team</label>
+            <input type="text" asp-for="@Model.HomeTeam" class="input"></input>
+            <label class="form-label">Away team</label>
+            <input type="text" asp-for="@Model.AwayTeam" class="input"></input>
+            <label class="form-label">Referee</label>
+            <input type="text" asp-for="@Model.referee" class="input"></input>
+            <label class="form-label">Commentator</label>
+            <input type="text" asp-for="@Model.commentator" class="input"></input>
+            <input type="submit" class="inputbutton" />
+        </form>
+    </div>
+    <br />
+    <div class="container">
+        <h4 class="title">Insert a new Goal</h4><br />
+        <form method="post" asp-page-handler="Goal" class="form">
+            <label class="form-label">Minute</label>
+            <input type="text" asp-for="@Model.minute" class="input"></input>
+            <label class="form-label">Gameweek</label>
+            <input type="text" asp-for="@Model.GoalGameweek" class="input"></input>
+            <label class="form-label">Player name</label>
+            <input type="text" asp-for="@Model.PlayerName" class="input"></input>
+            <label class="form-label">Home team</label>
+            <input type="text" asp-for="@Model.GoalHomeTeam" class="input"></input>
+            <label class="form-label">Away team</label>
+            <input type="text" asp-for="@Model.GoalAwayTeam" class="input"></input>
+            <input type="submit" class="inputbutton" />
+        </form>
+ 
+        <br><form method="post">
+            <button class="returnbutton" asp-page-handler="Return">Return to Admin</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

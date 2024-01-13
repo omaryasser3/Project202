@@ -1,0 +1,49 @@
+﻿@page
+@model Project_202.Pages.Accounts.signupModel
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<style>
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 550px;
+        
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        margin: auto;
+        margin-top: 100px;
+    }
+    .submit {
+        border: none;
+        outline: none;
+        background-color: royalblue;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        transform: .3s ease;
+    }
+
+        .submit:hover {
+            background-color: rgb(56, 90, 194);
+        }
+</style>
+
+
+
+
+
+
+<form class="form" method="post">
+    <button class="submit" asp-page-handler="Fan">Fan Sign Up</button>
+    
+    <button class="submit" asp-page-handler="Admin">Admin Sign Up</button>
+</form>
+

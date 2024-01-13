@@ -1,0 +1,60 @@
+﻿@page
+@model ShowPlayerModel
+@{
+    ViewData["Title"] = "Display Player";
+}
+@{
+    Layout = "~/Pages/Shared/_Layout_Fan.cshtml";
+}
+
+
+<style>
+    .player-card {
+        border: 1px solid royalblue;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .player-info {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .returnbutton {
+        background-color: royalblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<title>PLAYER</title>
+
+<div class="player-card">
+    <div class="player-info"><strong>Team:</strong> @Model.teamname</div>
+    <div class="player-info"><strong>Name:</strong> @Model.name</div>
+    <div class="player-info"><strong>Position:</strong> @Model.pos</div>
+    <div class="player-info"><strong>Age:</strong> @Model.age</div>
+    <div class="player-info"><strong>Nationality:</strong> @Model.nationality</div>
+    <div class="player-info"><strong>Goals:</strong> @Model.goal</div>
+    <div class="player-info"><strong>Fans:</strong> @Model.following</div>
+</div>
+
+<form method="post">
+    <button class="returnbutton" asp-page-handler="Return">Return</button>
+</form>
+</html>

@@ -1,0 +1,78 @@
+﻿@page
+@model ShowDataModel
+@{
+    ViewData["Title"] = "Display Player";
+}
+@{
+    Layout = "~/Pages/Shared/_Layout_Fan.cshtml";
+}
+
+
+<style>
+    .Team-Highest-Goal-card, .Player-Highest-Goal-card, .Average-GoalsInMatches-card, .Highest-Scored-Match-card {
+        border: 1px solid royalblue;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .player-info, .Team-name {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .returnbutton {
+        background-color: royalblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<title>PLAYER</title>
+
+<div class="Highest-Scored-Match-card">
+    <label><strong>Highest Scored Match</strong></label><br><br>
+    <div class="Team-name"><strong>Game week:</strong> @Model.game_week</div>
+    <div class="player-info"><strong>Home:</strong> @Model.hometeam</div>
+    <div class="player-info"><strong>Away:</strong> @Model.awayteam</div>
+    <div class="player-info"><strong>Total Goals:</strong> @Model.Goals</div>
+    
+</div>
+<div class="Team-Highest-Goal-card">
+    <label><strong>Highest Scoring Team</strong></label><br><br>
+    <div class="Team-name"><strong>Team:</strong> @Model.team</div>
+    <div class="player-info"><strong>Goals:</strong> @Model.sum_goals</div>
+</div>
+<div class="Player-Highest-Goal-card">
+    <label><strong>Highest Scoring Player</strong></label><br><br>
+    <div class="Team-name"><strong>Player:</strong> @Model.PlayerName</div>
+    <div class="player-info"><strong>Team:</strong> @Model.TeamName</div>
+    <div class="player-info"><strong>Goals:</strong> @Model.GoalCount</div>
+</div>
+<div class="Player-Highest-Goal-card">
+    <label><strong>Most Cleansheets</strong></label><br><br>
+    <div class="Team-name"><strong>Team:</strong> @Model.TeamN</div>
+    <div class="player-info"><strong>Cleansheets:</strong> @Model.CleanSheet</div>
+
+</div>
+
+
+
+<form method="post">
+    <button class="returnbutton" asp-page-handler="Return">Return</button>
+</form>
+</html>

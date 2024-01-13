@@ -1,0 +1,174 @@
+﻿@page
+@model Project_202.Pages.Accounts.AdminSignUpModel
+@{
+}
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 350px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 28px;
+        color: royalblue;
+        font-weight: 600;
+        letter-spacing: -1px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+        .title::before, .title::after {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            left: 0px;
+            background-color: royalblue;
+        }
+
+        .title::before {
+            width: 18px;
+            height: 18px;
+            background-color: royalblue;
+        }
+
+        .title::after {
+            width: 18px;
+            height: 18px;
+            animation: pulse 1s linear infinite;
+        }
+
+    .message, .signin {
+        color: rgba(88, 87, 87, 0.822);
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .signin {
+        text-align: center;
+    }
+
+        .signin a {
+            color: royalblue;
+        }
+
+            .signin a:hover {
+                text-decoration: underline royalblue;
+            }
+
+    .flex {
+        display: flex;
+        width: 100%;
+        gap: 6px;
+    }
+
+    .form label {
+        position: relative;
+        text-align: left
+    }
+
+        .form label .input {
+            width: 100%;
+            padding: 10px 10px 20px 10px;
+            outline: 0;
+            border: 1px solid rgba(105, 105, 105, 0.397);
+            border-radius: 10px;
+        }
+
+            .form label .input + span {
+                position: absolute;
+                left: 10px;
+                top: 15px;
+                color: grey;
+                font-size: 0.9em;
+                cursor: text;
+                transition: 0.3s ease;
+            }
+
+            .form label .input:placeholder-shown + span {
+                top: 15px;
+                font-size: 0.9em;
+            }
+
+            .form label .input:focus + span, .form label .input:valid + span {
+                top: 30px;
+                font-size: 0.7em;
+                font-weight: 600;
+            }
+
+            .form label .input:valid + span {
+                color: green;
+            }
+
+    .submit {
+        border: none;
+        outline: none;
+        background-color: royalblue;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        transform: .3s ease;
+    }
+
+        .submit:hover {
+            background-color: rgb(56, 90, 194);
+        }
+
+</style>
+
+
+<div class="container">
+    <form class="form" method="post">
+        <p class="title">Register </p>
+        <p class="message">Admin Sign Up </p>
+        <div class="flex">
+            <label>
+                First Name
+                <input placeholder="" type="text" class="input" asp-for="@Model.firstname">
+                <span asp-validation-for="@Model.firstname"></span>
+            </label>
+
+            <label>
+                Last Name
+                <input placeholder="" type="text" class="input" asp-for="@Model.lastname">
+                <span asp-validation-for="@Model.lastname"></span>
+            </label>
+        </div>
+
+        <label>
+            Email
+            <input placeholder="" type="email" class="input" asp-for="@Model.email">
+            <span asp-validation-for="@Model.email"></span>
+        </label>
+
+        <label>
+            Password
+            <input placeholder="" type="password" class="input" asp-for="@Model.password">
+            <span asp-validation-for="@Model.password"></span>
+        </label>
+        <label>
+            Confirm Password
+            <input placeholder="" type="password" class="input" asp-for="@Model.confirmPassword">
+            <span asp-validation-for="@Model.confirmPassword"></span>
+        </label>
+        <button class="submit" asp-page-handler="Login">Submit</button>
+        <p class="signin">Already have an acount ? <button class="btn btn-primary btn-xs" asp-page-handler="LoginGO">Signin</button> </p>
+    </form>
+</div>

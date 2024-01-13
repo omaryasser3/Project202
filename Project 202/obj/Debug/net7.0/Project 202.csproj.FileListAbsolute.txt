@@ -1,0 +1,61 @@
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.csproj.AssemblyReference.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.AssemblyInfoInputs.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.AssemblyInfo.cs
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.csproj.CoreCompileInputs.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.MvcApplicationPartsAssemblyInfo.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.RazorAssemblyInfo.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.RazorAssemblyInfo.cs
+F:\Project 202\Project 202\bin\Debug\net7.0\appsettings.Development.json
+F:\Project 202\Project 202\bin\Debug\net7.0\appsettings.json
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.staticwebassets.runtime.json
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.exe
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.deps.json
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.runtimeconfig.json
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\Project 202.pdb
+F:\Project 202\Project 202\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\Google.Protobuf.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\MySql.Data.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Data.SqlClient.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\ZstdSharp.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Project 202\Project 202\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets\msbuild.Project 202.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets\msbuild.build.Project 202.props
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Project 202.props
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Project 202.props
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets.build.json
+F:\Project 202\Project 202\obj\Debug\net7.0\staticwebassets.development.json
+F:\Project 202\Project 202\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\Project 202\Project 202\obj\Debug\net7.0\scopedcss\bundle\Project 202.styles.css
+F:\Project 202\Project 202\obj\Debug\net7.0\scopedcss\projectbundle\Project 202.bundle.scp.css
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.csproj.CopyComplete
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.dll
+F:\Project 202\Project 202\obj\Debug\net7.0\refint\Project 202.dll
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.pdb
+F:\Project 202\Project 202\obj\Debug\net7.0\Project 202.genruntimeconfig.cache
+F:\Project 202\Project 202\obj\Debug\net7.0\ref\Project 202.dll

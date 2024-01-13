@@ -1,0 +1,86 @@
+﻿@page
+@model Project_202.Pages.Fan.ShowMatchModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/_Layout_Fan.cshtml";
+}
+
+<style>
+    .player-card {
+        border: 1px solid royalblue;
+        border-radius: 10px;
+        padding: 15px;
+        width: 300px;
+        float: left;
+        margin-left: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .player-info {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .returnbutton {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: royalblue;
+        text-align: center;
+        margin: auto;
+        border: 5px;
+        border-radius: 12px;
+        padding: 5px;
+        color: white;
+    }
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<title>PLAYER</title>
+<h1>Goals Scored by the team players</h1><br /><br />
+<h2>Match Date: @Model.kickoff</h2>
+<div class="player-card">
+    <p>Goals: @Model.home_goals</p>
+    <table>
+        <th>@Model.hometeam</th>
+        <tbody>
+
+        @{
+            for (int i = 0; i < @Model.homeplayer.Count; i++)
+            {
+                <tr>
+                    <td>@Model.homeplayer[i]</td>
+                </tr>
+            }
+
+        }
+        </tbody>
+    </table>
+</div>
+<div class="player-card">
+    <table>
+        <p>Goals: @Model.guest_goals</p>
+        <th>@Model.awayteam</th>
+        <tbody>
+
+        @{
+            for (int i = 0; i < @Model.awayplayer.Count; i++)
+            {
+                <tr>
+                    <td>@Model.awayplayer[i]</td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+</div>
+<br /><br />
+<form method="post">
+    <button class="returnbutton" asp-page-handler="Return">Return</button>
+</form>
+</html>
